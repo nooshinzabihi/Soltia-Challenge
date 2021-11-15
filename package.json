@@ -1,0 +1,18 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 public/styles/main.scss public/searchbox.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^18.0.1",
+    "node-sass": "^6.0.1"
+  }
+}
